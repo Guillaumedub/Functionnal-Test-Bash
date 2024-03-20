@@ -9,3 +9,7 @@ For example `my_test.sh` will print `[FAIL]`
 For example `my_test.sh arg` will print `[PASS]`  
 
 ## ex02
+Extend the functionality of my_test.sh to perform the following:
+    Check if a file named file_to_check.txt exists in the workspace directory.
+    Print [PASS] if the file exists.
+    Print [FAIL] if the file does not exist.

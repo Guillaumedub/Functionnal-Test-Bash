@@ -26,8 +26,10 @@ Now create a function to print a name for each test and numero of the test in th
 
 `./my_test.sh` will print
 ```sh
-test[1]: ex01
-[]
+test[1]: return value of 0
+[PASS]
+test[2]: return value of 84
+[PASS]
 ```
 
 ## ex04

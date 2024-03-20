@@ -13,3 +13,22 @@ Extend the functionality of my_test.sh to perform the following:
     Check if a file named file_to_check.txt exists in the workspace directory.
     Print [PASS] if the file exists.
     Print [FAIL] if the file does not exist.
+
+
+-----------------------        A MODIFIER
+## ex02
+Now you can improve your bash program to test if a program has returned 0 or 84.
+Use the given binary `ret_0` and `ret_84` and check if `ret_0` returns 0 and `ret_84` returns 84.
+
+## ex03
+Now create a function to print a name for each test and numero of the test in the following format:
+`test[INDEX]: TEST_NAME`
+
+`./my_test.sh` will print
+```sh
+test[1]: ex01
+[]
+```
+
+## ex04
+TEST OUTPUT OF A PROGRAM

@@ -4,7 +4,7 @@
 Create a simple bash file named `my_test.sh` that can be executed and that do nothing
 
 ## ex01 - Manage argument in bash
-Now that you can execute you bash file, make it print `[PASS]` if we give you 1 argument or `[FAIL]` otherwise.  
+Now that you can execute your bash file, make it print `[PASS]` if we give you 1 argument or `[FAIL]` otherwise.  
 For example `my_test.sh` will print `[FAIL]`  
 For example `my_test.sh arg` will print `[PASS]`  
 
@@ -14,7 +14,7 @@ Extend the functionality of my_test.sh to perform the following:
     Print [PASS] if the file exists.
     Print [FAIL] if the file does not exist.
 
-## ex03 - Check return value of a program
+## ex03 - Check the return value of a program
 Now you can improve your bash program to test if a program has returned 0 or 84.
 Use the given binary `ret_0` and `ret_84` and check if `ret_0` returns 0 and `ret_84` returns 84.
 

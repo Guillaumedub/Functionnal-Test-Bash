@@ -14,9 +14,7 @@ Extend the functionality of my_test.sh to perform the following:
     Print [PASS] if the file exists.
     Print [FAIL] if the file does not exist.
 
-
------------------------        A MODIFIER
-## ex02
+## ex03 - Check return value of a program
 Now you can improve your bash program to test if a program has returned 0 or 84.
 Use the given binary `ret_0` and `ret_84` and check if `ret_0` returns 0 and `ret_84` returns 84.
 

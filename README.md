@@ -18,7 +18,7 @@ Extend the functionality of my_test.sh to perform the following:
 Now you can improve your bash program to test if a program has returned 0 or 84.
 Use the given binary `ret_0` and `ret_84` and check if `ret_0` returns 0 and `ret_84` returns 84.
 
-## ex03
+## ex04 - Naming tests
 Now create a function to print a name for each test and numero of the test in the following format:
 `test[INDEX]: TEST_NAME`
 
@@ -30,5 +30,18 @@ test[2]: return value of 84
 [PASS]
 ```
 
-## ex04
-TEST OUTPUT OF A PROGRAM
+## ex05 - Compare output of a program
+Try to compare the output of the given program (hello binary) with your bash file. Check if the hello program prints the following string "Hello, World!\n". If its does `my_test.sh` will print 
+```sh
+[PASS]
+else it will print
+[FAIL]
+```
+## 06 - Progession bar and color
+Now try to make a progression bar to have something visual to see how many tests you pass. Below 25% the percentage is displayed in red, between 25 and 75% the percentage is displayed in orange and above 75% the percentage is displayed in green. Also write "[FAIL]" in red and "[PASS]" in green. 
+
+## 07 - Crash detection
+Now your bash file should be supposed to detect crash. When a test crash it will displays "[CRASH]" in red. For example if it's a segmentation fault prints "[CRASH]". It should be supposed to works with every crash seg fault, aborded coredump, ect. 
+
+## Bonus
+Try to make functionnal test for your current project!

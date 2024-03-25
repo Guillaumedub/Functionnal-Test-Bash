@@ -1,6 +1,6 @@
 # Functionnal-Test-Bash
 
-## ex00
+## ex00 - Create bash executable
 Create a simple bash file named `my_test.sh` that can be executed and that do nothing
 
 ## ex01 - Manage argument in bash

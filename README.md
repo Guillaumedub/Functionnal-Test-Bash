@@ -31,7 +31,7 @@ test[2]: return value of 84
 ```
 
 ## ex05 - Compare the output of a program
-Try to compare the output of the given program (hello binary) with your bash file. Check if the hello program prints the following string "Hello, World!\n". If its does `my_test.sh` will print 
+Try to compare the output of the given program (hello binary) with your bash file. Check if the hello program prints the following string `Hello, World!\n`. If its does `my_test.sh` will print 
 ```sh
 [PASS]
 ```
@@ -39,11 +39,11 @@ else it will print
 ```
 [FAIL]
 ```
-## 06 - Progession bar and color
-Now you can try to make a progression bar to have something visual to see how many tests you pass. Below 25% the percentage is displayed in red, between 25 and 75% the percentage is displayed in orange and above 75% the percentage is displayed in green. Also, write "[FAIL]" in red and "[PASS]" in green. 
+## ex06 - Progession bar and color
+Now you can try to make a progression bar to have something visual to see how many tests you pass. Below 25% the percentage is displayed in red, between 25 and 75% the percentage is displayed in orange and above 75% the percentage is displayed in green. Also, write `[FAIL]` in red and `[PASS]` in green. 
 
-## 07 - Crash detection
-Now your bash file should be supposed to detect a crash. When a test crashes it will display "[CRASH]" in red. For example, if it's a segmentation fault print "[CRASH]". It should work with every crash seg fault, aborded core dump, etc. 
+## ex07 - Crash detection
+Now your bash file should be supposed to detect a crash. When a test crashes it will display `[CRASH]` in red. For example, if it's a segmentation fault print `[CRASH]`. It should work with every crash seg fault, aborded core dump, etc. 
 
 ## Bonus
 Try to make functional tests for your current project!

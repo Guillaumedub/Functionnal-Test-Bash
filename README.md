@@ -48,7 +48,7 @@ You can use the `my_segfault` and `my_zero_div` to test your program.
 Now check if a given program take less than 3 sec to execute, if so mark the test as passed otherwise mark the test as failed. 
 With the given binary `wait_5sec` you should mark the test as failed and passed with the binary `wait_1sec`. 
 
-## ex06 - Progession bar and color
+## ex08 - Progession bar and color
 Now you can try to make a progression bar to have something visual to see how many tests you pass. Below 25% the percentage is displayed in red, between 25 and 75% the percentage is displayed in orange and above 75% the percentage is displayed in green. Also, write `[FAIL]` in red and `[PASS]` in green. 
 
 ## Bonus

@@ -1,5 +1,7 @@
 # Functionnal-Test-Bash
 
+# Here is a cheat sheet that can help you to make your tests : https://devhints.io/bash
+
 ## ex00 - Create bash executable
 Create a simple bash file named `my_test.sh` that can be executed and that does nothing
 
